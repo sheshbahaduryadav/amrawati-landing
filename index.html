@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amrawati</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+            <!-- jquery cdn -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  </head>
+  <body>
+    <!-------------------------------banner section start here--------------------------------->
+    <div class="w-[100%] banner bg-yellow-200 flex justify-end">
+      <div class="w-full lg:max-w-[35%] lg:px-0 md:px-0 px-5 lg:mr-10 py-10">
+        <form
+          class="bg-white bg-opacity-50 space-y-3 text-[14px] shadow-md rounded-lg lg:px-8 md:px-4 sm:px-2 px-2 pt-6 pb-8 mb-4"
+        >
+          <div class="mb-3 text-center">
+            <h1 class="font-bold lg:text-[21px] md:text-[18px] sm:text-[16px] text-[17px]">Discover Amrawati Group's Luxurious Villas In Lucknow</h1>
+            <p class="lg:py-2 lg:text-md md:text-md sm:text-sm text-sm">
+              Explore our range of 4BHK Luxurious Properties designed for a life of comfort and style. Find the perfect Villa in Lucknow that matches your vision of a perfect home..
+            </p>
+        
+          </div>
+          <hr />
+          <h1 class="text-center font-bold lg:text-lg">Schedule Your Visit Today</h1>
+          <div class="mb-3">
+            <label class="block text-gray-700  mb-1" for="username">
+              Name<span class="text-red-600">*</span>
+            </label>
+            <input
+              class="shadow appearance-none border  rounded w-full py-2 px-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              id="name"
+              type="text"
+              placeholder="Name"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="block text-gray-700  mb-1" for="username">
+              E-mail<span class="text-red-600">*</span>
+            </label>
+            <input
+              class="shadow appearance-none border  rounded w-full py-2 px-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              id="email"
+              type="email"
+              placeholder="Email"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="block text-gray-700  mb-1" for="phone">
+              Phone<span class="text-red-600">*</span>
+            </label>
+            <input
+              class="shadow appearance-none border  rounded w-full py-2 px-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              id="phone"
+              type="number"
+              placeholder="Phone"
+            />
+          </div>
+
+          <div class="flex items-center justify-between">
+            <button
+              class="bg-blue-500 hover:bg-blue-700  text-white py-2 px-2 rounded focus:outline-none focus:shadow-outline"
+              type="button"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!---------------------------------block section start here-------------------------------->
+    <div class="w-[100%]">
+      <div class="lg:flex py-3 justify-between px-10 text-white text-center gap-4 bg-[#036]">
+        <div class="lg:border-r-2 md:border-r-2 border-white lg:py-3 md:py-3 sm:py-5 py-5  px-2 w-full">
+          <h1 class="font-bold underline">Total Home Automation</h1>
+          <p class="text-md">
+            Explore the latest innovations in Smart Home Technology and experience Effortless Control at your fingertips.
+          </p>
+        </div>
+        <div class="lg:border-r-2 border-white lg:py-3 md:py-3 sm:py-5 py-5  px-2 w-full">
+          <h1 class="font-bold underline">4-Sided Open Villas</h1>
+          <p class="text-md">
+            All the Villas have Open spaces on all Four Sides, providing it with better Ventilation, Natural light, and Potentially Better views.
+          </p>
+        </div>
+        <div class="w-full lg:py-3 md:py-3 sm:py-5 py-5  px-2">
+          <h1 class="font-bold underline">High-Security Villas</h1>
+          <p class="text-md">
+            Cutting-edge Security systems, 24/7 monitoring, and Access control. Experience the ultimate blend of Luxury and Safety in our exclusive Villa community.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------------------Gallery section start here-------------------------------->
+    <div class="container mx-auto px-5 py-10 lg:px-14 mt-16 space-y-5">
+      <div class="text-center flex justify-center">
+        <div>
+          <h1 class="font-bold lg:text-2xl md:text-xl sm:text-xl text-xl">
+            Live The Dream In Amrawati's Exquisite <span class="underline text-gray-700">4BHK Villas.</span>
+          </h1>
+          <p class="lg:px-32 lg:text-md md:text-sm sm:text-sm text-sm">
+            At Amrawati Group, We don't just Build Homes- We Build Dreams. Explore our range of luxurious properties and experience a world of Unparalleled Quality, Luxury, and Trust.
+          </p>
+        </div>
+      </div>
+      <div class="flex flex-wrap md:-m-2 cursor-pointer">
+        <div
+          class="flex lg:w-1/3 hover:scale-105 transition duration-300 flex-wrap"
+        >
+          <div class="w-full lg:p-5 md:p-5 sm:p-5 p-5 ">
+            <img
+              alt="gallery"
+              class="block h-72 w-full rounded-lg object-cover object-center"
+              src="./assets/all-image/1.jpg"
+            />
+          </div>
+        </div>
+        <div
+          class="flex lg:w-1/3 hover:scale-105 transition duration-300 flex-wrap"
+        >
+          <div class="w-full lg:p-5 md:p-5 sm:p-5 p-5 ">
+            <img
+              alt="gallery"
+              class="block h-72 w-full rounded-lg object-cover object-center"
+              src="./assets/all-image/6.jpg"
+            />
+          </div>
+        </div>
+        <div
+          class="flex lg:w-1/3 hover:scale-105 transition duration-300 flex-wrap"
+        >
+          <div class="w-full lg:p-5 md:p-5 sm:p-5 p-5 ">
+            <img
+              alt="gallery"
+              class="block h-72 w-full rounded-lg object-cover object-center"
+              src="./assets/all-image/5.jpg"
+            />
+          </div>
+        </div>
+        <div
+          class="flex lg:w-1/3 hover:scale-105 transition duration-300 flex-wrap"
+        >
+          <div class="w-full lg:p-5 md:p-5 sm:p-5 p-5 ">
+            <img
+              alt="gallery"
+              class="block h-72 w-full rounded-lg object-cover object-center"
+              src="./assets/all-image/7.jpg"
+            />
+          </div>
+        </div>
+        <div
+          class="flex lg:w-1/3 hover:scale-105 transition duration-300 flex-wrap"
+        >
+          <div class="w-full lg:p-5 md:p-5 sm:p-5 p-5 ">
+            <img
+              alt="gallery"
+              class="block h-72 w-full rounded-lg object-cover object-center"
+              src="./assets/all-image/3.jpg"
+            />
+          </div>
+        </div>
+        <div
+          class="flex lg:w-1/3 hover:scale-105 transition duration-300 flex-wrap"
+        >
+          <div class="w-full lg:p-5 md:p-5 sm:p-5 p-5 ">
+            <img
+              alt="gallery"
+              class="block h-72 w-full rounded-lg object-cover object-center"
+              src="./assets/all-image/8.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------------Architecture section start here-------------------------------->
+    <div class="w-[100%] space-y-5 mt-16  py-10 px-10">
+      <div class="lg:flex gap-5">
+        <div class="lg:w-1/2 lg:h-80 md:h-80 sm:h-72 h-72">
+          <img src="./assets/all-image/4.jpg" class="lg:h-80 md:h-80 sm:h-64 h-64 w-full" alt="" />
+        </div>
+        <div class="lg:w-1/2">
+          <p class="">
+            
+          </p>
+          <h1 class="font-bold mt-[15px] pb-2">
+            <span class="text-gray-700 text-2xl">Amrawati Villas Specifications
+          </h1>
+         
+          <ul class="space-y-3 text-justify">
+            <div class="flex">
+              <span class=" text-yellow-800 mr-2"><i class="fa-regular fa-circle-check"></i></span>
+            <li class=""> All Villas With A Park In A Backyard.</li>
+          </div>
+          <div class="flex">
+            <span class=" text-yellow-800 mr-2"><i class="fa-regular fa-circle-check"></i></span> 
+            <li>Villas are designed to cater to the needs of the Luxury lovers who like modern & Elegant houses.</li>
+            </div>
+            <div class="flex">
+              <span class=" text-yellow-800 mr-2"><i class="fa-regular fa-circle-check"></i></span>
+              
+              <li>Located Near HCL IT City Sultanpur Road Lucknow.</li>
+            </div>
+            <div class="flex">
+              <span class=" text-yellow-800 mr-2"><i class="fa-regular fa-circle-check"></i></span>
+              <li>115 Acres Integrated Township</li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!------------------------------Unique Amenities start here-------------------------------->   
+    <div class="w-[100%] px-14 py-10 mt-16 bg-[#051c3e]">
+      <div class="text-center flex justify-center pb-10">
+          <h1 class="font-bold text-2xl">
+            <span class="text-white">Unique Amenities
+          </h1>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-6 lg:grid-cols-4 gap-6">
+        <div class="p-2 text-white">
+          <div class="flex justify-center">
+            <img src="./assets/amenities/multipurpose.webp" class="h-12 w-12 rounded" alt="">
+          </div>
+          <p class="text-center text-lg">Multipurpose Hall</p>
+        </div>
+        <div class="p-2 text-white">
+          <div class="flex justify-center">
+            <img src="./assets/amenities/grand-club.webp" class="h-12 w-12 rounded" alt="">
+          </div>
+          <p class="text-center text-lg">
+            Grand Club House</p>
+        </div>
+        <div class="p-2 text-white">
+          <div class="flex justify-center">
+            <img src="./assets/amenities/gyymnasium.webp" class="h-12 w-12 rounded" alt="">
+          </div>
+          <p class="text-center text-lg">Gymnasium</p>
+        </div>
+        <div class="p-2 text-white">
+          <div class="flex justify-center">
+            <img src="./assets/amenities/yoga.webp" class="h-12 w-12 rounded" alt="">
+          </div>
+          <p class="text-center text-lg">Yoga/Activity Lawn</p>
+        </div>
+        <div class="p-2 text-white">
+          <div class="flex justify-center">
+            <img src="./assets/amenities/kids.webp" class="h-12 w-12 rounded" alt="">
+          </div>
+          <p class="text-center text-lg">Kids Pool</p>
+        </div>
+        <div class="p-2 text-white">
+          <div class="flex justify-center">
+            <img src="./assets/amenities/lush.webp" class="h-12 w-12 rounded" alt="">
+          </div>
+          <p class="text-center text-lg">Lush Greenery</p>
+        </div>
+        <div class="p-2 text-white">
+          <div class="flex justify-center">
+            <img src="./assets/amenities/childrens.webp" class="h-12 w-12 rounded" alt="">
+          </div>
+          <p class="text-center text-lg">Children's Play Area</p>
+        </div>
+        <div class="p-2 text-white">
+          <div class="flex justify-center">
+            <img src="./assets/amenities/jogging.webp" class="h-12 w-12 rounded" alt="">
+          </div>
+          <p class="text-center text-lg">Jogging Track</p>
+        </div>
+        
+      </div>
+    </div>  
+
+     <!------------------------------Our Partner start here-------------------------------->
+  <div class="flex justify-center mt-16">
+	  <div class="container">
+    <div class="text-center flex justify-center py-10">
+      <div>
+        <h1 class="font-bold text-2xl">
+          <span class="text-gray-700">Our Group Companies & Initiatives
+        </h1>
+      </div>
+    </div>
+    
+		<section class="customer-logos slider">
+			<div class="slide"><img src="./assets/partner/Amor-partner.png"  alt=""></div>
+			<div class="slide"><img src="./assets/partner/pintal-partner.png"  alt=""></div>
+			<div class="slide"><img src="./assets/partner/Amrawati-IT-City-partner.png"  alt=""></div>
+			<div class="slide"><img src="./assets/partner/kutumb.png"  alt=""></div>
+			<div class="slide"><img src="./assets/partner/pintailparkcity.png"  alt=""></div>
+		</section>
+
+</div>
+	</div>
+      
+    <!-----------------------------------Footer start here-------------------------------------->
+    <!--Footer container-->
+<footer
+class="flex flex-col mt-24 items-center bg-neutral-200 text-center text-white dark:bg-neutral-600">
+<div class="container pt-9">
+  <div class="mb-9 flex justify-center">
+    <a href="#!" class="mr-9 text-neutral-800 dark:text-neutral-200">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-4 w-4"
+        fill="currentColor"
+        viewBox="0 0 24 24">
+        <path
+          d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+      </svg>
+    </a>
+    <a href="#!" class="mr-9 text-neutral-800 dark:text-neutral-200">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-4 w-4"
+        fill="currentColor"
+        viewBox="0 0 24 24">
+        <path
+          d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+      </svg>
+    </a>
+    
+    <a href="#!" class="mr-9 text-neutral-800 dark:text-neutral-200">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-4 w-4"
+        fill="currentColor"
+        viewBox="0 0 24 24">
+        <path
+          d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+      </svg>
+    </a>
+    <a href="#!" class="mr-9 text-neutral-800 dark:text-neutral-200">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-4 w-4"
+        fill="currentColor"
+        viewBox="0 0 24 24">
+        <path
+          d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+      </svg>
+    </a>
+  
+  </div>
+</div>
+
+<!--Copyright section-->
+<div
+  class="w-full bg-neutral-300 p-4 text-center text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200">
+  © 2023 Copyright:
+  <a
+    class="text-neutral-800 dark:text-neutral-400"
+    href="https://tw-elements.com/"
+    >TW elements</a
+  >
+</div>
+</footer>
+
+
+<!-----------------------------------script tag start here-------------------------------------->
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.customer-logos').slick({
+    slidesToShow: 4,
+    slidesToScroll:1,
+    autoplay:true,
+    autoplaySpeed: 3000,
+    arrows: false,
+    dots:false,
+    pauseOnHover: false,
+    responsive: [
+        {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '20px',
+          slidesToShow: 1
+        }
+        }]
+    });
+  });
+  </script>
+  </body>
+</html>
